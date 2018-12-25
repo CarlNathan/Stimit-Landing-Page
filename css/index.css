@@ -5,11 +5,13 @@ body {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.5em;
+    font-weight: 200;
+    font-size: 1.6em;
+    letter-spacing: 0.4em;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:#3a88de;
 }
 
@@ -36,4 +38,6 @@ img {
 
 .more-info-container {
     
+    border-top: 1px solid #3a88de;
+    font-size: 0.8em;
 }
