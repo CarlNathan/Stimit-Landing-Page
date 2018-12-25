@@ -1,0 +1,39 @@
+body {
+    color:#3a88de;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color:#3a88de;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.center-text {
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 3rem;
+    border-top: 1px solid black;
+}
+
+.more-info-container {
+    
+}
