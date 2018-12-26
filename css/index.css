@@ -7,12 +7,33 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 1.6em;
-    letter-spacing: 0.4em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.4em;
+}
+
+#tagline {
+    margin-top: 0px;
+}
+
+#introduction {
+    margin-top: 2.2em;
+    text-align: center;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     color:#3a88de;
+    letter-spacing: 0.1rem;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color:#3a88de;
+    letter-spacing: 0.1rem;
 }
 
 img {
@@ -23,7 +44,7 @@ img {
 
 .center {
     margin: auto;
-    width: 50%;
+    width: 70%;
     padding: 10px;
   }
 
@@ -32,7 +53,7 @@ img {
 }
 
 .copyright {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     border-top: 1px solid #3a88de;
     font-size: 0.8em;
 }
