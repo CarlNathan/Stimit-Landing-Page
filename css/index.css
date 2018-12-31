@@ -1,39 +1,45 @@
 body {
-    color:#3a88de;
-    background-color: #f4f4f4;
+    margin: 0px;
+    color:#f4f4f4;
+    /* background-color: #f4f4f4; */
+    /* background-color: #3a88de; */
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #cfe7fa 0%, #3aaaf4 0%, #3e7fbc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #cfe7fa 0%,#3aaaf4 0%,#3e7fbc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #cfe7fa 0%,#3aaaf4 0%,#3e7fbc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#3e7fbc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.main {
+    margin-top: 150px; /* Add a top margin to avoid content overlay */
+    margin-bottom: 100px;
+    min-height: 100%;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: 1.6em;
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 1.4em;
-}
-
-#tagline {
-    margin-top: 0px;
-}
-
-#introduction {
-    margin-top: 2.2em;
-    text-align: center;
+    font-size: 1.4rem;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
-    color:#3a88de;
-    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    color:#f4f4f4;
 }
 
 a {
     font-family: 'Raleway', sans-serif;
     color:#3a88de;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
 }
 
 img {
@@ -42,11 +48,44 @@ img {
     width: auto\9; /* ie8 */
 }
 
+.navbar {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    background-color: #f4f4f4;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: #3a88de;
+}
+
+#header-logo {
+    display: inline;
+    float: left;
+}
+
+#tagline {
+    padding-left: 10px;
+    display: inline;
+    float: left;
+}
+
+#introduction-container {
+    margin-left: 2rem;
+}
+
+#introduction {
+    width: 75%;
+}
+
 .center {
     margin: auto;
     width: 70%;
     padding: 10px;
   }
+
+.right-text{
+    text-align: right;
+}
 
 .center-text {
     text-align: center;
@@ -54,6 +93,6 @@ img {
 
 .copyright {
     margin-top: 1.5rem;
-    border-top: 1px solid #3a88de;
+    border-top: 1px solid #f4f4f4;
     font-size: 0.8em;
 }
