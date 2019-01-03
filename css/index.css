@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     color:#f4f4f4;
@@ -9,13 +13,12 @@ body {
     background: linear-gradient(45deg, #cfe7fa 0%,#3aaaf4 0%,#3e7fbc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#3e7fbc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     background-attachment: fixed;
-    height: 100%;
+    height: 100%
 }
 
 .main {
-    margin-top: 150px; /* Add a top margin to avoid content overlay */
-    margin-bottom: 100px;
-    min-height: 100%;
+    padding-top: 150px; /* Add a top margin to avoid content overlay */
+    min-height: calc(100% - 250px);
 }
 
 h2 {
@@ -27,7 +30,6 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 1.4rem;
 }
 
 p {
@@ -56,11 +58,13 @@ img {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     color: #3a88de;
+    min-height: 70px;
 }
 
 #header-logo {
     display: inline;
     float: left;
+    min-width: 200px;
 }
 
 #tagline {
@@ -74,6 +78,10 @@ img {
 }
 
 #introduction {
+    width: 75%;
+}
+
+#more-info-container {
     width: 75%;
 }
 
